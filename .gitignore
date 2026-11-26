@@ -1,0 +1,22 @@
+# داده‌های اجرا (دیتابیس و کلید امضای نشست)
+data/*
+!data/.gitkeep
+
+# وابستگی‌ها و خروجی‌ها
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# سیستم و ادیتور
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# موقت‌ها
+*.tmp
+*.log
+.env
+.env.*

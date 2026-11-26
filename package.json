@@ -1,0 +1,35 @@
+{
+  "name": "train-count",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dependency-free class attendance tracker with a Persian (Jalali) calendar, RTL UI and guest attendance.",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test/api.test.js",
+    "test:ui": "node test/ui.test.js"
+  },
+  "keywords": [
+    "attendance",
+    "jalali",
+    "persian",
+    "rtl",
+    "school",
+    "nodejs",
+    "zero-dependencies"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/USERNAME/train-count.git"
+  },
+  "bugs": {
+    "url": "https://github.com/USERNAME/train-count/issues"
+  },
+  "homepage": "https://github.com/USERNAME/train-count#readme"
+}
